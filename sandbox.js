@@ -6,7 +6,13 @@ const peoeple = ['fuad', 'niyi', 'dipo', 'huswah', 'muhaj'];
 
 let html = ``;
 
-peoeple.forEach(function(person){
+// peoeple.forEach(function(person){
+//     // create html template
+//     html += `<li style="color: purple"> ${person} </li>`;
+// });
+
+
+peoeple.forEach(person => {
     // create html template
     html += `<li style="color: purple"> ${person} </li>`;
 });
